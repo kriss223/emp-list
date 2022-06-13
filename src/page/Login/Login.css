@@ -7,8 +7,9 @@
 .wraps {
     text-align: center;
     background: rgb(172, 149, 231);
-    padding: 3em;
+    padding: 1.5em;
     border-radius: 20px;
+    min-width: 350px;
 }
 
 .wraps > * + * {
@@ -33,4 +34,5 @@ label p {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     padding: 0.2em;
-  }
+    width: 100%;
+}
