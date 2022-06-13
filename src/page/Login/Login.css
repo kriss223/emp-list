@@ -4,14 +4,14 @@
     min-height: 100vh;
 }
 
-.wrap {
+.wraps {
     text-align: center;
     background: rgb(172, 149, 231);
     padding: 3em;
     border-radius: 20px;
 }
 
-.wrap > * + * {
+.wraps > * + * {
     padding-top: 1em;
 }
 

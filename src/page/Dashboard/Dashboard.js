@@ -25,7 +25,7 @@ const Dashboard = () => {
                             <Link to={`detail/${e.id}`}>
                                 <div className='name-logo'>
                                     <img className='logo' src={e.company_logo} alt=""/>
-                                    <div className='name'>
+                                    <div className='names'>
                                         <h3 className='emp'>
                                             {e.name}
                                         </h3>

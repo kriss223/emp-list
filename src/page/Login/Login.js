@@ -29,7 +29,7 @@ function Login({ setToken }) {
 
     return (
         <div className="login-wrapper">
-            <div className='wrap'>
+            <div className='wraps'>
 
  
             {(err)? <h1>{ err }</h1> : <h1>Login</h1>}
