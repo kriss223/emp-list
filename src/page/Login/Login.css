@@ -1,0 +1,36 @@
+.login-wrapper {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.wrap {
+    text-align: center;
+    background: rgb(172, 149, 231);
+    padding: 3em;
+    border-radius: 20px;
+}
+
+.wrap > * + * {
+    padding-top: 1em;
+}
+
+label p {
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 0.2em;
+}
+
+.input {
+    display: block;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 0.2em;
+  }
